@@ -1,0 +1,20 @@
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+# Avoid duplicate /index.html URLs; do not redirect internal DirectoryIndex requests.
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[?\s] [NC]
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+
+RewriteRule ^tproduct/928217006382\-prikosnovenie\-tayuschei\-svechi/?$ /massazh/massazh-tayushchey-svechoy/ [R=301,L]
+RewriteRule ^tproduct/156645439592\-taiskii\-oil\-massazh/?$ /massazh/tayskiy-oyl-massazh/ [R=301,L]
+RewriteRule ^tproduct/620943645202\-tandem\-4\-ruki/?$ /massazh/massazh-v-chetyre-ruki/ [R=301,L]
+RewriteRule ^tproduct/303981314862\-eksklyuzivnii\-detoks\-massazh\-ot\-salona\-p/?$ /massazh/massazh-mozhzhevelovymi-sharikami/ [R=301,L]
+RewriteRule ^tproduct/882075536912\-spa\-paket\-energiya\-buddi/?$ /spa-programmy/energiya-buddy/ [R=301,L]
+RewriteRule ^tproduct/381906675812\-spa\-paket\-idealnaya\-figura/?$ /spa-programmy/idealnaya-figura/ [R=301,L]
+RewriteRule ^tproduct/619193310032\-spa\-paket\-shyopot\-mozhzhevelnika/?$ /spa-programmy/shepot-mozhzhevelnika/ [R=301,L]
+RewriteRule ^tproduct/290796796032\-spa\-paket\-krem\-bryule/?$ /spa-programmy/krem-bryule/ [R=301,L]
+RewriteRule ^tproduct/238230467692\-ti\-i\-ya/?$ /spa-dlya-dvoih/ty-i-ya/ [R=301,L]
+RewriteRule ^tproduct/588653158142\-edem\-dlya\-dvoih/?$ /spa-dlya-dvoih/edem-dlya-dvoih/ [R=301,L]
+RewriteRule ^tproduct/628916802002\-romanticheskoe\-puteshestvie/?$ /spa-dlya-dvoih/romanticheskoe-puteshestvie/ [R=301,L]
