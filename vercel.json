@@ -1,0 +1,61 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/tproduct/928217006382-prikosnovenie-tayuschei-svechi",
+      "destination": "/massazh/massazh-tayushchey-svechoy/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/156645439592-taiskii-oil-massazh",
+      "destination": "/massazh/tayskiy-oyl-massazh/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/620943645202-tandem-4-ruki",
+      "destination": "/massazh/massazh-v-chetyre-ruki/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/303981314862-eksklyuzivnii-detoks-massazh-ot-salona-p",
+      "destination": "/massazh/massazh-mozhzhevelovymi-sharikami/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/882075536912-spa-paket-energiya-buddi",
+      "destination": "/spa-programmy/energiya-buddy/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/381906675812-spa-paket-idealnaya-figura",
+      "destination": "/spa-programmy/idealnaya-figura/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/619193310032-spa-paket-shyopot-mozhzhevelnika",
+      "destination": "/spa-programmy/shepot-mozhzhevelnika/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/290796796032-spa-paket-krem-bryule",
+      "destination": "/spa-programmy/krem-bryule/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/238230467692-ti-i-ya",
+      "destination": "/spa-dlya-dvoih/ty-i-ya/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/588653158142-edem-dlya-dvoih",
+      "destination": "/spa-dlya-dvoih/edem-dlya-dvoih/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/628916802002-romanticheskoe-puteshestvie",
+      "destination": "/spa-dlya-dvoih/romanticheskoe-puteshestvie/",
+      "permanent": true
+    }
+  ]
+}
