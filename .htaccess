@@ -3,39 +3,62 @@ DirectoryIndex index.html
 ErrorDocument 404 /404.html
 
 RewriteEngine On
+
+# 1) Всегда HTTPS (Beget часто смотрит X-Forwarded-Proto)
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# 2) www → без www
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+
 RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[?\s] [NC]
 RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
 
-RewriteRule ^tproduct/928217006382\-prikosnovenie\-tayuschei\-svechi/?$ /massazh/massazh-tayushchey-svechoy/ [R=301,L]
-RewriteRule ^tproduct/156645439592\-taiskii\-oil\-massazh/?$ /massazh/tayskiy-oyl-massazh/ [R=301,L]
-RewriteRule ^tproduct/620943645202\-tandem\-4\-ruki/?$ /massazh/massazh-v-chetyre-ruki/ [R=301,L]
-RewriteRule ^tproduct/303981314862\-eksklyuzivnii\-detoks\-massazh\-ot\-salona\-p/?$ /massazh/massazh-mozhzhevelovymi-sharikami/ [R=301,L]
-RewriteRule ^tproduct/249832099112\-massazh\-goryachimi\-apelsinami/?$ /massazh/massazh-goryachimi-apelsinami/ [R=301,L]
-RewriteRule ^tproduct/589416178562\-baliiskii\-massazh/?$ /massazh/baliyskiy-massazh/ [R=301,L]
-RewriteRule ^tproduct/105759472652\-massazh\-travyanimi\-meshkami/?$ /massazh/massazh-travyanymi-meshkami/ [R=301,L]
-RewriteRule ^tproduct/412007548192\-massazh\-goryachimi\-kamnyami/?$ /massazh/massazh-goryachimi-kamnyami/ [R=301,L]
-RewriteRule ^tproduct/408507949902\-massazh\-nog/?$ /massazh/massazh-nog/ [R=301,L]
-RewriteRule ^tproduct/447404468052\-massazh\-litsa/?$ /massazh/massazh-litsa/ [R=301,L]
-RewriteRule ^tproduct/910360552632\-massazh\-golovi/?$ /massazh/massazh-golovy/ [R=301,L]
-RewriteRule ^tproduct/896758684452\-massazh\-spina\-i\-plechi/?$ /massazh/massazh-spiny-i-plech/ [R=301,L]
-RewriteRule ^tproduct/416131058942\-antitsellyulitnii\-massazh/?$ /massazh/antitsellyulitnyy-massazh/ [R=301,L]
-RewriteRule ^tproduct/732506660222\-limfodrenazhnii\-massazh/?$ /massazh/limfodrenazhnyy-massazh/ [R=301,L]
-RewriteRule ^tproduct/183363705712\-medovii\-massazh/?$ /massazh/medovyy-massazh/ [R=301,L]
-RewriteRule ^tproduct/449512171162\-sportivnii\-massazh/?$ /massazh/sportivnyy-massazh/ [R=301,L]
-RewriteRule ^tproduct/882075536912\-spa\-paket\-energiya\-buddi/?$ /spa-programmy/energiya-buddy/ [R=301,L]
-RewriteRule ^tproduct/381906675812\-spa\-paket\-idealnaya\-figura/?$ /spa-programmy/idealnaya-figura/ [R=301,L]
-RewriteRule ^tproduct/619193310032\-spa\-paket\-shyopot\-mozhzhevelnika/?$ /spa-programmy/shepot-mozhzhevelnika/ [R=301,L]
-RewriteRule ^tproduct/290796796032\-spa\-paket\-krem\-bryule/?$ /spa-programmy/krem-bryule/ [R=301,L]
-RewriteRule ^tproduct/238230467692\-ti\-i\-ya/?$ /spa-dlya-dvoih/ty-i-ya/ [R=301,L]
-RewriteRule ^tproduct/588653158142\-edem\-dlya\-dvoih/?$ /spa-dlya-dvoih/edem-dlya-dvoih/ [R=301,L]
-RewriteRule ^tproduct/628916802002\-romanticheskoe\-puteshestvie/?$ /spa-dlya-dvoih/romanticheskoe-puteshestvie/ [R=301,L]
-RewriteRule ^tproduct/322527938872\-spa\-paket\-pina\-kolada/?$ /spa-programmy/pina-kolada/ [R=301,L]
-RewriteRule ^tproduct/343234169662\-spa\-paket\-relax\-man/?$ /spa-programmy/relax-man/ [R=301,L]
-RewriteRule ^tproduct/872877690132\-spa\-paket\-pattaya\-man/?$ /spa-programmy/pattaya-man/ [R=301,L]
-RewriteRule ^tproduct/891521040042\-spa\-paket\-klyukvennii\-miks/?$ /spa-programmy/klyukvennyy-miks/ [R=301,L]
-RewriteRule ^tproduct/921444061312\-spa\-paket\-pattaya\-vip/?$ /spa-programmy/pattaya-vip/ [R=301,L]
-RewriteRule ^tproduct/128812775552\-spa\-paket\-terpkoe\-vino/?$ /spa-programmy/terpkoye-vino/ [R=301,L]
-RewriteRule ^tproduct/196107840232\-spa\-paket\-ekzoticheskaya\-svezhest/?$ /spa-programmy/ekzoticheskaya-svezhest/ [R=301,L]
-RewriteRule ^tproduct/271968875113\-spa\-paket\-solnechnii\-frandzhipani/?$ /spa-programmy/solnechnyy-frandzhipani/ [R=301,L]
-RewriteRule ^tproduct/274842452222\-skrabirovanie\-loson/?$ /spa-programmy/skrabirovanie-loson/ [R=301,L]
-RewriteRule ^tproduct/723093287722\-obyortivanie\-loson/?$ /spa-programmy/obyortyvanie-loson/ [R=301,L]
+# Старые разделы Tilda из sitemap
+RewriteRule ^uslugi-i-ceni/?$ https://pattaya-massage.ru/ceny/ [R=301,L]
+RewriteRule ^contacts/?$ https://pattaya-massage.ru/kontakty/ [R=301,L]
+RewriteRule ^video/?$ https://pattaya-massage.ru/o-salone/ [R=301,L]
+RewriteRule ^interier/?$ https://pattaya-massage.ru/o-salone/ [R=301,L]
+
+RewriteRule ^tproduct/928217006382\-prikosnovenie\-tayuschei\-svechi/?$ https://pattaya-massage.ru/massazh/massazh-tayushchey-svechoy/ [R=301,L]
+RewriteRule ^tproduct/156645439592\-taiskii\-oil\-massazh/?$ https://pattaya-massage.ru/massazh/tayskiy-oyl-massazh/ [R=301,L]
+RewriteRule ^tproduct/620943645202\-tandem\-4\-ruki/?$ https://pattaya-massage.ru/massazh/massazh-v-chetyre-ruki/ [R=301,L]
+RewriteRule ^tproduct/303981314862\-eksklyuzivnii\-detoks\-massazh\-ot\-salona\-p/?$ https://pattaya-massage.ru/massazh/massazh-mozhzhevelovymi-sharikami/ [R=301,L]
+RewriteRule ^tproduct/249832099112\-massazh\-goryachimi\-apelsinami/?$ https://pattaya-massage.ru/massazh/massazh-goryachimi-apelsinami/ [R=301,L]
+RewriteRule ^tproduct/589416178562\-baliiskii\-massazh/?$ https://pattaya-massage.ru/massazh/baliyskiy-massazh/ [R=301,L]
+RewriteRule ^tproduct/105759472652\-massazh\-travyanimi\-meshkami/?$ https://pattaya-massage.ru/massazh/massazh-travyanymi-meshkami/ [R=301,L]
+RewriteRule ^tproduct/412007548192\-massazh\-goryachimi\-kamnyami/?$ https://pattaya-massage.ru/massazh/massazh-goryachimi-kamnyami/ [R=301,L]
+RewriteRule ^tproduct/408507949902\-massazh\-nog/?$ https://pattaya-massage.ru/massazh/massazh-nog/ [R=301,L]
+RewriteRule ^tproduct/447404468052\-massazh\-litsa/?$ https://pattaya-massage.ru/massazh/massazh-litsa/ [R=301,L]
+RewriteRule ^tproduct/910360552632\-massazh\-golovi/?$ https://pattaya-massage.ru/massazh/massazh-golovy/ [R=301,L]
+RewriteRule ^tproduct/896758684452\-massazh\-spina\-i\-plechi/?$ https://pattaya-massage.ru/massazh/massazh-spiny-i-plech/ [R=301,L]
+RewriteRule ^tproduct/416131058942\-antitsellyulitnii\-massazh/?$ https://pattaya-massage.ru/massazh/antitsellyulitnyy-massazh/ [R=301,L]
+RewriteRule ^tproduct/732506660222\-limfodrenazhnii\-massazh/?$ https://pattaya-massage.ru/massazh/limfodrenazhnyy-massazh/ [R=301,L]
+RewriteRule ^tproduct/183363705712\-medovii\-massazh/?$ https://pattaya-massage.ru/massazh/medovyy-massazh/ [R=301,L]
+RewriteRule ^tproduct/449512171162\-sportivnii\-massazh/?$ https://pattaya-massage.ru/massazh/sportivnyy-massazh/ [R=301,L]
+RewriteRule ^tproduct/882075536912\-spa\-paket\-energiya\-buddi/?$ https://pattaya-massage.ru/spa-programmy/energiya-buddy/ [R=301,L]
+RewriteRule ^tproduct/381906675812\-spa\-paket\-idealnaya\-figura/?$ https://pattaya-massage.ru/spa-programmy/idealnaya-figura/ [R=301,L]
+RewriteRule ^tproduct/619193310032\-spa\-paket\-shyopot\-mozhzhevelnika/?$ https://pattaya-massage.ru/spa-programmy/shepot-mozhzhevelnika/ [R=301,L]
+RewriteRule ^tproduct/290796796032\-spa\-paket\-krem\-bryule/?$ https://pattaya-massage.ru/spa-programmy/krem-bryule/ [R=301,L]
+RewriteRule ^tproduct/238230467692\-ti\-i\-ya/?$ https://pattaya-massage.ru/spa-dlya-dvoih/ty-i-ya/ [R=301,L]
+RewriteRule ^tproduct/588653158142\-edem\-dlya\-dvoih/?$ https://pattaya-massage.ru/spa-dlya-dvoih/edem-dlya-dvoih/ [R=301,L]
+RewriteRule ^tproduct/628916802002\-romanticheskoe\-puteshestvie/?$ https://pattaya-massage.ru/spa-dlya-dvoih/romanticheskoe-puteshestvie/ [R=301,L]
+RewriteRule ^tproduct/322527938872\-spa\-paket\-pina\-kolada/?$ https://pattaya-massage.ru/spa-programmy/pina-kolada/ [R=301,L]
+RewriteRule ^tproduct/343234169662\-spa\-paket\-relax\-man/?$ https://pattaya-massage.ru/spa-programmy/relax-man/ [R=301,L]
+RewriteRule ^tproduct/872877690132\-spa\-paket\-pattaya\-man/?$ https://pattaya-massage.ru/spa-programmy/pattaya-man/ [R=301,L]
+RewriteRule ^tproduct/891521040042\-spa\-paket\-klyukvennii\-miks/?$ https://pattaya-massage.ru/spa-programmy/klyukvennyy-miks/ [R=301,L]
+RewriteRule ^tproduct/921444061312\-spa\-paket\-pattaya\-vip/?$ https://pattaya-massage.ru/spa-programmy/pattaya-vip/ [R=301,L]
+RewriteRule ^tproduct/128812775552\-spa\-paket\-terpkoe\-vino/?$ https://pattaya-massage.ru/spa-programmy/terpkoye-vino/ [R=301,L]
+RewriteRule ^tproduct/196107840232\-spa\-paket\-ekzoticheskaya\-svezhest/?$ https://pattaya-massage.ru/spa-programmy/ekzoticheskaya-svezhest/ [R=301,L]
+RewriteRule ^tproduct/271968875113\-spa\-paket\-solnechnii\-frandzhipani/?$ https://pattaya-massage.ru/spa-programmy/solnechnyy-frandzhipani/ [R=301,L]
+RewriteRule ^tproduct/274842452222\-skrabirovanie\-loson/?$ https://pattaya-massage.ru/spa-programmy/skrabirovanie-loson/ [R=301,L]
+RewriteRule ^tproduct/723093287722\-obyortivanie\-loson/?$ https://pattaya-massage.ru/spa-programmy/obyortyvanie-loson/ [R=301,L]
+
+# Long cache for versioned static assets
+<IfModule mod_headers.c>
+  <FilesMatch "\.(woff2|webp|svg|css|js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
