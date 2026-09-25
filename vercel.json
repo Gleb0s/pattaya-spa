@@ -116,6 +116,56 @@
       "source": "/tproduct/628916802002-romanticheskoe-puteshestvie",
       "destination": "/spa-dlya-dvoih/romanticheskoe-puteshestvie/",
       "permanent": true
+    },
+    {
+      "source": "/tproduct/322527938872-spa-paket-pina-kolada",
+      "destination": "/spa-programmy/pina-kolada/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/343234169662-spa-paket-relax-man",
+      "destination": "/spa-programmy/relax-man/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/872877690132-spa-paket-pattaya-man",
+      "destination": "/spa-programmy/pattaya-man/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/891521040042-spa-paket-klyukvennii-miks",
+      "destination": "/spa-programmy/klyukvennyy-miks/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/921444061312-spa-paket-pattaya-vip",
+      "destination": "/spa-programmy/pattaya-vip/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/128812775552-spa-paket-terpkoe-vino",
+      "destination": "/spa-programmy/terpkoye-vino/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/196107840232-spa-paket-ekzoticheskaya-svezhest",
+      "destination": "/spa-programmy/ekzoticheskaya-svezhest/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/271968875113-spa-paket-solnechnii-frandzhipani",
+      "destination": "/spa-programmy/solnechnyy-frandzhipani/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/274842452222-skrabirovanie-loson",
+      "destination": "/spa-programmy/skrabirovanie-loson/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/723093287722-obyortivanie-loson",
+      "destination": "/spa-programmy/obyortyvanie-loson/",
+      "permanent": true
     }
   ]
 }
