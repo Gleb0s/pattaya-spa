@@ -1,0 +1,1316 @@
+[
+  {
+    "cluster": "01_массаж_категория",
+    "query": "массаж Иваново",
+    "demand": "ВЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Главная + /massazh/"
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "массажный салон Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Главная + /massazh/"
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "салон массажа Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Главная + /massazh/"
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "массаж Иваново цены",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Главная + /massazh/"
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "массаж Иваново адрес",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Главная + /massazh/"
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "массаж Иваново записаться",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Главная + /massazh/"
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "массаж в Иванове недорого",
+    "demand": "СЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Главная + /massazh/"
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "где сделать массаж Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Главная + /massazh/"
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "массаж Иваново Батурина",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Главная + /massazh/"
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "массаж Иваново отзывы",
+    "demand": "СЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Главная + /massazh/"
+  },
+  {
+    "cluster": "02_спа_категория",
+    "query": "спа Иваново",
+    "demand": "ВЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "02_спа_категория",
+    "query": "спа салон Иваново",
+    "demand": "ВЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "02_спа_категория",
+    "query": "spa салон Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "02_спа_категория",
+    "query": "спа центр Иваново",
+    "demand": "СЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "02_спа_категория",
+    "query": "спа процедуры Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "02_спа_категория",
+    "query": "спа Иваново цены",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "02_спа_категория",
+    "query": "лучший спа салон Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "03_тайский_ойл",
+    "query": "тайский массаж Иваново",
+    "demand": "ВЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/tayskiy-oyl-massazh/",
+    "note": "Ключевой дифференциатор vs клиники"
+  },
+  {
+    "cluster": "03_тайский_ойл",
+    "query": "тайский ойл массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/tayskiy-oyl-massazh/",
+    "note": "Ключевой дифференциатор vs клиники"
+  },
+  {
+    "cluster": "03_тайский_ойл",
+    "query": "oil массаж Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/tayskiy-oyl-massazh/",
+    "note": "Ключевой дифференциатор vs клиники"
+  },
+  {
+    "cluster": "03_тайский_ойл",
+    "query": "ойл массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/tayskiy-oyl-massazh/",
+    "note": "Ключевой дифференциатор vs клиники"
+  },
+  {
+    "cluster": "03_тайский_ойл",
+    "query": "тайский массаж Иваново цены",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/tayskiy-oyl-massazh/",
+    "note": "Ключевой дифференциатор vs клиники"
+  },
+  {
+    "cluster": "03_тайский_ойл",
+    "query": "тайский массаж Иваново запись",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/tayskiy-oyl-massazh/",
+    "note": "Ключевой дифференциатор vs клиники"
+  },
+  {
+    "cluster": "03_тайский_ойл",
+    "query": "массаж горячим маслом Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/massazh/tayskiy-oyl-massazh/",
+    "note": "Ключевой дифференциатор vs клиники"
+  },
+  {
+    "cluster": "04_массаж_зоны",
+    "query": "массаж спины Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-spiny-i-plech/",
+    "note": ""
+  },
+  {
+    "cluster": "04_массаж_зоны",
+    "query": "массаж спины и плеч Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-spiny-i-plech/",
+    "note": ""
+  },
+  {
+    "cluster": "04_массаж_зоны",
+    "query": "массаж шеи и плеч Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-spiny-i-plech/",
+    "note": ""
+  },
+  {
+    "cluster": "04_массаж_зоны",
+    "query": "антистрессовый массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-spiny-i-plech/",
+    "note": ""
+  },
+  {
+    "cluster": "04_массаж_зоны",
+    "query": "массаж головы Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-golovy/",
+    "note": ""
+  },
+  {
+    "cluster": "04_массаж_зоны",
+    "query": "массаж лица Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-litsa/",
+    "note": ""
+  },
+  {
+    "cluster": "04_массаж_зоны",
+    "query": "массаж ног Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-nog/",
+    "note": ""
+  },
+  {
+    "cluster": "04_массаж_зоны",
+    "query": "массаж стоп Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-nog/",
+    "note": ""
+  },
+  {
+    "cluster": "05_массаж_фигура_спорт",
+    "query": "антицеллюлитный массаж Иваново",
+    "demand": "ВЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/antitsellyulitnyy-massazh/",
+    "note": "Без лечебных обещаний в текстах"
+  },
+  {
+    "cluster": "05_массаж_фигура_спорт",
+    "query": "лимфодренажный массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/limfodrenazhnyy-massazh/",
+    "note": "Без лечебных обещаний в текстах"
+  },
+  {
+    "cluster": "05_массаж_фигура_спорт",
+    "query": "медовый массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/medovyy-massazh/",
+    "note": "Без лечебных обещаний в текстах"
+  },
+  {
+    "cluster": "05_массаж_фигура_спорт",
+    "query": "спортивный массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/sportivnyy-massazh/",
+    "note": "Без лечебных обещаний в текстах"
+  },
+  {
+    "cluster": "06_массаж_авторский",
+    "query": "массаж горячими камнями Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-goryachimi-kamnyami/",
+    "note": "НЧ — низкая конкуренция, важно для охвата"
+  },
+  {
+    "cluster": "06_массаж_авторский",
+    "query": "стоун массаж Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-goryachimi-kamnyami/",
+    "note": "НЧ — низкая конкуренция, важно для охвата"
+  },
+  {
+    "cluster": "06_массаж_авторский",
+    "query": "массаж травяными мешками Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-travyanymi-meshkami/",
+    "note": "НЧ — низкая конкуренция, важно для охвата"
+  },
+  {
+    "cluster": "06_массаж_авторский",
+    "query": "балийский массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/baliyskiy-massazh/",
+    "note": "НЧ — низкая конкуренция, важно для охвата"
+  },
+  {
+    "cluster": "06_массаж_авторский",
+    "query": "массаж в четыре руки Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-v-chetyre-ruki/",
+    "note": "НЧ — низкая конкуренция, важно для охвата"
+  },
+  {
+    "cluster": "06_массаж_авторский",
+    "query": "массаж 4 руки Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-v-chetyre-ruki/",
+    "note": "НЧ — низкая конкуренция, важно для охвата"
+  },
+  {
+    "cluster": "06_массаж_авторский",
+    "query": "массаж свечой Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-tayushchey-svechoy/",
+    "note": "НЧ — низкая конкуренция, важно для охвата"
+  },
+  {
+    "cluster": "06_массаж_авторский",
+    "query": "массаж тающей свечой Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-tayushchey-svechoy/",
+    "note": "НЧ — низкая конкуренция, важно для охвата"
+  },
+  {
+    "cluster": "06_массаж_авторский",
+    "query": "массаж горячими апельсинами Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-goryachimi-apelsinami/",
+    "note": "НЧ — низкая конкуренция, важно для охвата"
+  },
+  {
+    "cluster": "06_массаж_авторский",
+    "query": "массаж можжевеловыми шариками Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-mozhzhevelovymi-sharikami/",
+    "note": "НЧ — низкая конкуренция, важно для охвата"
+  },
+  {
+    "cluster": "07_спа_программы",
+    "query": "спа программы Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "07_спа_программы",
+    "query": "спа ритуал Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "07_спа_программы",
+    "query": "спа уход за телом Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "07_спа_программы",
+    "query": "обертывание Иваново спа",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "07_спа_программы",
+    "query": "скраб тела Иваново",
+    "demand": "СЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "07_спа_программы",
+    "query": "пилинг тела Иваново спа",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "08_спа_именные_мужчины",
+    "query": "энергия будды спа Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/energiya-buddy/",
+    "note": "Мужской сегмент ~30%"
+  },
+  {
+    "cluster": "08_спа_именные_мужчины",
+    "query": "спа программа пина колада Иваново",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/pina-kolada/",
+    "note": "Мужской сегмент ~30%"
+  },
+  {
+    "cluster": "08_спа_именные_мужчины",
+    "query": "спа крем брюле Иваново",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/krem-bryule/",
+    "note": "Мужской сегмент ~30%"
+  },
+  {
+    "cluster": "08_спа_именные_мужчины",
+    "query": "спа для мужчин Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/relax-man/",
+    "note": "Мужской сегмент ~30%"
+  },
+  {
+    "cluster": "08_спа_именные_мужчины",
+    "query": "массаж для мужчин Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/pattaya-man/",
+    "note": "Мужской сегмент ~30%"
+  },
+  {
+    "cluster": "08_спа_именные_мужчины",
+    "query": "мужской спа Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/relax-man/",
+    "note": "Мужской сегмент ~30%"
+  },
+  {
+    "cluster": "08_спа_именные_мужчины",
+    "query": "pattaya vip спа",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/pattaya-vip/",
+    "note": "Мужской сегмент ~30%"
+  },
+  {
+    "cluster": "08_спа_именные_мужчины",
+    "query": "спа обертывание Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/obyortyvanie-loson/",
+    "note": "Мужской сегмент ~30%"
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "спа для двоих Иваново",
+    "demand": "ВЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/",
+    "note": "Сильный коммерческий кластер у конкурентов"
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "массаж для двоих Иваново",
+    "demand": "ВЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/",
+    "note": "Сильный коммерческий кластер у конкурентов"
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "парный массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/",
+    "note": "Сильный коммерческий кластер у конкурентов"
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "массаж для пары Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/",
+    "note": "Сильный коммерческий кластер у конкурентов"
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "романтический спа Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/romanticheskoe-puteshestvie/",
+    "note": "Сильный коммерческий кластер у конкурентов"
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "свидание спа Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/",
+    "note": "Сильный коммерческий кластер у конкурентов"
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "спа программа ты и я Иваново",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/ty-i-ya/",
+    "note": "Сильный коммерческий кластер у конкурентов"
+  },
+  {
+    "cluster": "10_девичник",
+    "query": "спа девичник Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-devichnik/",
+    "note": "Не в шапке, но отдельная посадочная"
+  },
+  {
+    "cluster": "10_девичник",
+    "query": "девичник в спа Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-devichnik/",
+    "note": "Не в шапке, но отдельная посадочная"
+  },
+  {
+    "cluster": "10_девичник",
+    "query": "девичник массаж Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-devichnik/",
+    "note": "Не в шапке, но отдельная посадочная"
+  },
+  {
+    "cluster": "10_девичник",
+    "query": "девичник для подруг Иваново спа",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-devichnik/",
+    "note": "Не в шапке, но отдельная посадочная"
+  },
+  {
+    "cluster": "10_девичник",
+    "query": "спа на компанию Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-devichnik/",
+    "note": "Не в шапке, но отдельная посадочная"
+  },
+  {
+    "cluster": "11_сертификаты_абонементы",
+    "query": "подарочный сертификат массаж Иваново",
+    "demand": "ВЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/podarochnye-sertifikaty/",
+    "note": "Сезон: 8 марта, НГ, ДР"
+  },
+  {
+    "cluster": "11_сертификаты_абонементы",
+    "query": "сертификат в спа Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/podarochnye-sertifikaty/",
+    "note": "Сезон: 8 марта, НГ, ДР"
+  },
+  {
+    "cluster": "11_сертификаты_абонементы",
+    "query": "подарочный сертификат спа Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/podarochnye-sertifikaty/",
+    "note": "Сезон: 8 марта, НГ, ДР"
+  },
+  {
+    "cluster": "11_сертификаты_абонементы",
+    "query": "сертификат на массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/podarochnye-sertifikaty/",
+    "note": "Сезон: 8 марта, НГ, ДР"
+  },
+  {
+    "cluster": "11_сертификаты_абонементы",
+    "query": "купить сертификат массаж Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/podarochnye-sertifikaty/",
+    "note": "Сезон: 8 марта, НГ, ДР"
+  },
+  {
+    "cluster": "11_сертификаты_абонементы",
+    "query": "абонемент на массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/abonementy/",
+    "note": "Сезон: 8 марта, НГ, ДР"
+  },
+  {
+    "cluster": "11_сертификаты_абонементы",
+    "query": "абонемент массаж Иваново цены",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/abonementy/",
+    "note": "Сезон: 8 марта, НГ, ДР"
+  },
+  {
+    "cluster": "11_сертификаты_абонементы",
+    "query": "курс массажа абонемент Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/abonementy/",
+    "note": "Сезон: 8 марта, НГ, ДР"
+  },
+  {
+    "cluster": "12_область_гео",
+    "query": "массаж Ивановская область",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Одна точка — аккуратно, без ложных филиалов"
+  },
+  {
+    "cluster": "12_область_гео",
+    "query": "спа Иваново Кохма",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Одна точка — аккуратно, без ложных филиалов"
+  },
+  {
+    "cluster": "12_область_гео",
+    "query": "массаж Шуя",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Одна точка — аккуратно, без ложных филиалов"
+  },
+  {
+    "cluster": "12_область_гео",
+    "query": "тайский массаж Кохма",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "Одна точка — аккуратно, без ложных филиалов"
+  },
+  {
+    "cluster": "13_бренд",
+    "query": "паттайя массаж Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "навигационный",
+    "landing": "/",
+    "note": "Защита бренда; путаница с городом Паттайя"
+  },
+  {
+    "cluster": "13_бренд",
+    "query": "спа паттайя Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "навигационный",
+    "landing": "/",
+    "note": "Защита бренда; путаница с городом Паттайя"
+  },
+  {
+    "cluster": "13_бренд",
+    "query": "pattaya massage Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "навигационный",
+    "landing": "/",
+    "note": "Защита бренда; путаница с городом Паттайя"
+  },
+  {
+    "cluster": "13_бренд",
+    "query": "паттайя Батурина 23",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "навигационный",
+    "landing": "/",
+    "note": "Защита бренда; путаница с городом Паттайя"
+  },
+  {
+    "cluster": "14_цены_контакты",
+    "query": "цены на массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/ceny/",
+    "note": ""
+  },
+  {
+    "cluster": "14_цены_контакты",
+    "query": "прайс массаж Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/ceny/",
+    "note": ""
+  },
+  {
+    "cluster": "14_цены_контакты",
+    "query": "спа салон Иваново адрес",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/kontakty/",
+    "note": ""
+  },
+  {
+    "cluster": "14_цены_контакты",
+    "query": "массаж Батурина 23",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/kontakty/",
+    "note": ""
+  },
+  {
+    "cluster": "15_софт_инфо",
+    "query": "чем отличается тайский ойл массаж",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "информационный",
+    "landing": "/",
+    "note": "Блоки FAQ / гиды — без мед.claims"
+  },
+  {
+    "cluster": "15_софт_инфо",
+    "query": "что взять с собой в спа салон",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "информационный",
+    "landing": "/",
+    "note": "Блоки FAQ / гиды — без мед.claims"
+  },
+  {
+    "cluster": "15_софт_инфо",
+    "query": "можно ли в спа вдвоем",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "информационный",
+    "landing": "/",
+    "note": "Блоки FAQ / гиды — без мед.claims"
+  },
+  {
+    "cluster": "15_софт_инфо",
+    "query": "как выбрать спа программу",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "информационный",
+    "landing": "/",
+    "note": "Блоки FAQ / гиды — без мед.claims"
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "массаж Иваново рядом",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "гео+локаль"
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "массажный кабинет Иваново",
+    "demand": "СЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/massazh/",
+    "note": ""
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "релакс массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/",
+    "note": ""
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "расслабляющий массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/",
+    "note": ""
+  },
+  {
+    "cluster": "02_спа_категория",
+    "query": "спа массаж Иваново",
+    "demand": "ВЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": "мост массаж↔спа"
+  },
+  {
+    "cluster": "02_спа_категория",
+    "query": "тайский спа Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "02_спа_категория",
+    "query": "spa Иваново цены",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/ceny/",
+    "note": ""
+  },
+  {
+    "cluster": "03_тайский_ойл",
+    "query": "традиционный тайский массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/massazh/tayskiy-oyl-massazh/",
+    "note": "у конкурентов сильнее «традиционный»; у нас ойл"
+  },
+  {
+    "cluster": "03_тайский_ойл",
+    "query": "тайский массаж маслом Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/tayskiy-oyl-massazh/",
+    "note": ""
+  },
+  {
+    "cluster": "04_массаж_зоны",
+    "query": "массаж шейно воротниковой зоны Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-spiny-i-plech/",
+    "note": ""
+  },
+  {
+    "cluster": "04_массаж_зоны",
+    "query": "массаж плеч Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-spiny-i-plech/",
+    "note": ""
+  },
+  {
+    "cluster": "04_массаж_зоны",
+    "query": "массаж лица и головы Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-litsa/",
+    "note": ""
+  },
+  {
+    "cluster": "05_массаж_фигура_спорт",
+    "query": "лимфодренаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/limfodrenazhnyy-massazh/",
+    "note": ""
+  },
+  {
+    "cluster": "05_массаж_фигура_спорт",
+    "query": "антицеллюлитный массаж Иваново цены",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/antitsellyulitnyy-massazh/",
+    "note": ""
+  },
+  {
+    "cluster": "06_массаж_авторский",
+    "query": "стоунтерапия Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/massazh/massazh-goryachimi-kamnyami/",
+    "note": ""
+  },
+  {
+    "cluster": "06_массаж_авторский",
+    "query": "массаж бамбуком Иваново",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "коммерческий",
+    "landing": "/massazh/",
+    "note": "если нет услуги — не использовать"
+  },
+  {
+    "cluster": "07_спа_программы",
+    "query": "спа программа Иваново цены",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "07_спа_программы",
+    "query": "шоколадное обертывание Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "07_спа_программы",
+    "query": "винное обертывание Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/terpkoye-vino/",
+    "note": ""
+  },
+  {
+    "cluster": "07_спа_программы",
+    "query": "спа франжипани Иваново",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/solnechnyy-frandzhipani/",
+    "note": ""
+  },
+  {
+    "cluster": "07_спа_программы",
+    "query": "клюквенный спа Иваново",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/klyukvennyy-miks/",
+    "note": ""
+  },
+  {
+    "cluster": "08_спа_именные_мужчины",
+    "query": "массаж для мужчин Иваново цены",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/pattaya-man/",
+    "note": ""
+  },
+  {
+    "cluster": "08_спа_именные_мужчины",
+    "query": "relax man спа Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/relax-man/",
+    "note": ""
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "спа свидание Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/",
+    "note": ""
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "массаж вдвоем Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/",
+    "note": ""
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "парный спа Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/",
+    "note": ""
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "романтика спа Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/romanticheskoe-puteshestvie/",
+    "note": ""
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "эдем для двоих спа",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/edem-dlya-dvoih/",
+    "note": ""
+  },
+  {
+    "cluster": "10_девичник",
+    "query": "девичник невесты спа Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-devichnik/",
+    "note": ""
+  },
+  {
+    "cluster": "10_девичник",
+    "query": "спа для подруг Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-devichnik/",
+    "note": ""
+  },
+  {
+    "cluster": "11_сертификаты_абонементы",
+    "query": "подарок сертификат спа Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/podarochnye-sertifikaty/",
+    "note": ""
+  },
+  {
+    "cluster": "11_сертификаты_абонементы",
+    "query": "сертификат на спа Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/podarochnye-sertifikaty/",
+    "note": ""
+  },
+  {
+    "cluster": "11_сертификаты_абонементы",
+    "query": "электронный сертификат массаж Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/podarochnye-sertifikaty/",
+    "note": "если появится e-сертификат"
+  },
+  {
+    "cluster": "11_сертификаты_абонементы",
+    "query": "абонемент тайский массаж Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/abonementy/",
+    "note": ""
+  },
+  {
+    "cluster": "12_область_гео",
+    "query": "массаж Иваново область",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": ""
+  },
+  {
+    "cluster": "12_область_гео",
+    "query": "спа салон Иваново область",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/",
+    "note": ""
+  },
+  {
+    "cluster": "13_бренд",
+    "query": "салон паттайя Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "навигационный",
+    "landing": "/",
+    "note": ""
+  },
+  {
+    "cluster": "13_бренд",
+    "query": "паттайя спа Батурина",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "навигационный",
+    "landing": "/kontakty/",
+    "note": ""
+  },
+  {
+    "cluster": "14_цены_контакты",
+    "query": "сколько стоит массаж Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/ceny/",
+    "note": ""
+  },
+  {
+    "cluster": "14_цены_контакты",
+    "query": "стоимость тайского массажа Иваново",
+    "demand": "СЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/ceny/",
+    "note": ""
+  },
+  {
+    "cluster": "14_цены_контакты",
+    "query": "спа Иваново телефон",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/kontakty/",
+    "note": ""
+  },
+  {
+    "cluster": "14_цены_контакты",
+    "query": "массаж Иваново режим работы",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/kontakty/",
+    "note": ""
+  },
+  {
+    "cluster": "15_софт_инфо",
+    "query": "что такое ойл массаж",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "информационный",
+    "landing": "/massazh/tayskiy-oyl-massazh/",
+    "note": ""
+  },
+  {
+    "cluster": "15_софт_инфо",
+    "query": "чем полезен массаж горячими камнями",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "информационный",
+    "landing": "/massazh/massazh-goryachimi-kamnyami/",
+    "note": "без мед.claims"
+  },
+  {
+    "cluster": "15_софт_инфо",
+    "query": "как проходит спа девичник",
+    "demand": "НЧ",
+    "priority": "P3",
+    "intent": "информационный",
+    "landing": "/spa-devichnik/",
+    "note": ""
+  },
+  {
+    "cluster": "15_софт_инфо",
+    "query": "что подарить на спа Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "информационный",
+    "landing": "/podarochnye-sertifikaty/",
+    "note": ""
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "массаж Иваново 60 минут",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/ceny/",
+    "note": ""
+  },
+  {
+    "cluster": "01_массаж_категория",
+    "query": "массаж Иваново 90 минут",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/ceny/",
+    "note": ""
+  },
+  {
+    "cluster": "02_спа_категория",
+    "query": "дневной спа Иваново",
+    "demand": "НЧ",
+    "priority": "P2",
+    "intent": "коммерческий",
+    "landing": "/spa-programmy/",
+    "note": ""
+  },
+  {
+    "cluster": "09_для_двоих",
+    "query": "подарок парный массаж Иваново",
+    "demand": "НЧ",
+    "priority": "P1",
+    "intent": "коммерческий",
+    "landing": "/spa-dlya-dvoih/",
+    "note": ""
+  }
+]
