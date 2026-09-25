@@ -23,6 +23,66 @@
       "permanent": true
     },
     {
+      "source": "/tproduct/249832099112-massazh-goryachimi-apelsinami",
+      "destination": "/massazh/massazh-goryachimi-apelsinami/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/589416178562-baliiskii-massazh",
+      "destination": "/massazh/baliyskiy-massazh/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/105759472652-massazh-travyanimi-meshkami",
+      "destination": "/massazh/massazh-travyanymi-meshkami/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/412007548192-massazh-goryachimi-kamnyami",
+      "destination": "/massazh/massazh-goryachimi-kamnyami/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/408507949902-massazh-nog",
+      "destination": "/massazh/massazh-nog/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/447404468052-massazh-litsa",
+      "destination": "/massazh/massazh-litsa/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/910360552632-massazh-golovi",
+      "destination": "/massazh/massazh-golovy/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/896758684452-massazh-spina-i-plechi",
+      "destination": "/massazh/massazh-spiny-i-plech/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/416131058942-antitsellyulitnii-massazh",
+      "destination": "/massazh/antitsellyulitnyy-massazh/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/732506660222-limfodrenazhnii-massazh",
+      "destination": "/massazh/limfodrenazhnyy-massazh/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/183363705712-medovii-massazh",
+      "destination": "/massazh/medovyy-massazh/",
+      "permanent": true
+    },
+    {
+      "source": "/tproduct/449512171162-sportivnii-massazh",
+      "destination": "/massazh/sportivnyy-massazh/",
+      "permanent": true
+    },
+    {
       "source": "/tproduct/882075536912-spa-paket-energiya-buddi",
       "destination": "/spa-programmy/energiya-buddy/",
       "permanent": true

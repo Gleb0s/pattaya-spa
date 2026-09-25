@@ -60,7 +60,10 @@
     const sort=$('#catalog-sort').value;
     if(sort!=='default') filtered.sort((a,b)=>sort==='asc'?a.price-b.price:b.price-a.price);
     $('#product-grid').dataset.category=category;
-    $('#product-grid').innerHTML=filtered.map(p=>`<article class="product-card"><a class="product-photo" href="${escape(p.url)}" aria-label="${escape(p.title)}: состав и цена"><img src="assets/${escape(p.image)}.webp" alt="${escape(p.title)} — фото из материалов салона Паттайя" width="520" height="570" loading="lazy"><span class="product-time">${escape(p.time)}</span><span class="photo-arrow">${icon('diagonal')}</span></a><div class="product-card-copy"><h3><a href="${escape(p.url)}">${escape(p.title)}</a></h3><p>${escape(p.caption)}</p><div><span>${p.from?'от ':''}${money(p.price)}${p.category==='couple'?' <small>/ двоих</small>':''}</span><a class="product-link" href="${escape(p.url)}" aria-label="Состав программы ${escape(p.title)}">Подробнее ${icon('arrow')}</a></div></div></article>`).join('');
+    $('#product-grid').innerHTML=filtered.map(p=>{
+      const file=/\.(webp|jpe?g|png)$/i.test(p.image)?p.image:`${p.image}.webp`;
+      return `<article class="product-card"><a class="product-photo" href="${escape(p.url)}" aria-label="${escape(p.title)}: состав и цена"><img src="assets/${escape(file)}" alt="${escape(p.title)} — фото из материалов салона Паттайя" width="520" height="570" loading="lazy"><span class="product-time">${escape(p.time)}</span><span class="photo-arrow">${icon('diagonal')}</span></a><div class="product-card-copy"><h3><a href="${escape(p.url)}">${escape(p.title)}</a></h3><p>${escape(p.caption)}</p><div><span>${p.from?'от ':''}${money(p.price)}${p.category==='couple'?' <small>/ двоих</small>':''}</span><a class="product-link" href="${escape(p.url)}" aria-label="Состав программы ${escape(p.title)}">Подробнее ${icon('arrow')}</a></div></div></article>`;
+    }).join('');
   }
   function selectCategory(button) { category=button.dataset.category; markTabs(categoryTabs,button); $('#product-grid').setAttribute('aria-labelledby',button.id); renderProducts(); }
   categoryTabs.forEach(button=>button.addEventListener('click',()=>selectCategory(button)));
